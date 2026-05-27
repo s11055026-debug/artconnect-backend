@@ -10,8 +10,8 @@ app.use(express.json()); // 讓後端看得懂前端傳來的 JSON 資料
 const db = mysql.createConnection({
     host: 'b3jdnhv6auslxuvpf2mg-mysql.services.clever-cloud.com',
     user: 'umpzsf30yeeffpy', // 根據你的截圖，你的 User 固定是這個
-    password: '填入你的 Clever Cloud Password 密碼',
-    database: '填入你在上一輪滑鼠點兩下、b開頭的那個真實資料庫名稱', 
+    password: 'wES4RGlXXPHDvFmhKxx1',
+    database: 'b3jdnhv6auslxuvpf2mg', 
     port: 3306
 });
 
